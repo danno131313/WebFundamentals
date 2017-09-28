@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: -.01em;
+}
+
+#wrapper {
+    width: 970px;
+    height: 895px;
+    margin: 0 auto;
+    padding-top: 5px;
+    background: #1b5373; /* Old browsers */
+    background: -moz-linear-gradient(top, #1b5373 0%, #1a5373 88%, #2076a8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1b5373 0%,#1a5373 88%,#2076a8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1b5373 0%,#1a5373 88%,#2076a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#textsize {
+    margin: 9px 50px 0 0;
+    color: white;
+    font-size: .8em;
+    font-weight: 500;
+    text-align: right;
+}
+
+#textsize a {
+    color: #C9A728;
+}
+
+#textsize span {
+    color: black;
+}
+
+#pythonimg {
+    width: 347px;
+    height: auto;
+    display: inline-block;
+}
+
+#searchwrapper {
+    width: 311px;
+    height: 74px;
+    box-sizing: border-box;
+    background: #464646;
+    display: inline-block;
+    margin: 7px 0 0 292px;
+    border-radius: 1em;
+    vertical-align: top;
+    padding: 20px 0 0 20px;
+    box-shadow: 2px 2px 2px #242424;
+}
+
+#searchbar {
+    text-align: center;
+    width: 180px;
+    border-radius: 0;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#go-btn {
+    display: inline-block;
+    background: #1B5373;
+    margin-left: 10px;
+    height: 26px;
+    width: 42px;
+    text-align: center;
+    padding-top: 8px;
+    vertical-align: middle;
+    border-radius: .5em;
+    border: 3px outset #BFBFBF;
+    color: white;
+    font-weight: 600;
+}
+
+#navbar {
+    width: auto;
+    height: 53px;
+    margin: 0 30px;
+    border-radius: .3em;
+    background: #2176a8; /* Old browsers */
+    background: -moz-linear-gradient(top, #2176a8 0%, #3c80a8 50%, #2176a8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2176a8 0%,#3c80a8 50%,#2176a8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2176a8 0%,#3c80a8 50%,#2176a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    box-shadow: 2px 2px 2px #242424;
+}
+
+.navitem {
+    color: white;
+    vertical-align: middle;
+    font-size: 1.5em;
+    line-height: 51px;
+    margin-left: 32px;
+}
+
+#ql-wrapper {
+    box-sizing: border-box;
+    width: 180px;
+    margin: 30px 0 0 50px;
+    display: inline-block;
+}
+
+#ql-wrapper ul {
+    list-style-position: inside;
+}
+
+.quicklink {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    margin-top: 8px;
+}
+
+#main-content {
+    display: inline-block;
+    width: 730px;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-top: 20px;
+    height: 263px;
+}
+
+#main-content p {
+    font-size: .9em;
+    color: white;
+    text-align: center;
+}
+
+.quote {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color: #FFD14E;
+    margin-top: 10px;
+    font-size: 1.2em;;
+}
+
+#quote-author {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 11px;
+    vertical-align: bottom;
+    display: block;
+}
+
+#whitebar {
+    width: inherit;
+    height: 278px;
+    background: white;
+    box-sizing: border-box;
+    padding: 17px 40px;
+    margin-top: 30px;
+}
+
+.info {
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 0 17px;
+    height: 236px;
+    width: 406px;
+    border-top: 8px solid #68A7D1;
+    display: inline-block;
+}
+
+.info h3 {
+    margin-top: 3px;
+    font-weight: 500;
+}
+
+.info ul {
+    display: inline-block;
+    /*text-align: left;*/
+    list-style-position: inside;
+}
+
+.info ul li {
+    text-align: center;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+#bottom-info {
+    vertical-align: bottom;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.bottom-info {
+    color: #7AB6DF;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+#copyright {
+    margin-left: 407px;
+    margin-top: 20px;
+    color: #7AB6DF;
+    font-size: .75em;
+    display: block;
+}

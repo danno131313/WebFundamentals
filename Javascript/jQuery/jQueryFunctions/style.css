@@ -1,0 +1,15 @@
+button {
+    margin: 5px 50px;
+    text-align: center;
+}
+
+div {
+    width: 200px;
+    height: 150px;
+    margin: 15px auto;
+    background: blue;
+}
+
+div.red {
+    background: red;
+}

@@ -1,0 +1,13 @@
+Created github repo
+
+mkdir GitHubRepoAssignment
+cd GitHubRepAssignment
+git init
+vi readme.md
+
+Added text to readme.md
+
+git status
+git add .
+git commit -m "added readme.md"
+git push -u origin master

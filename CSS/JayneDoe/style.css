@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0 auto;
+    height: 975px;
+    width: 919px;
+}
+
+.bar {
+    background: #FAFAFA;
+    height: 45px;
+    width: inherit;
+    padding: 15px;
+}
+
+#titlebar h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: inline;
+}
+
+#titlebar h3 {
+    margin-top: 15px;
+    float: right;
+    display: inline;
+    width: auto;
+}
+
+#background {
+    background: #3F2C33;
+    width: inherit;
+    height: 848px;
+    padding: 15px;
+}
+
+#selfphoto {
+    width: 396px;
+    border: 4px solid #C0C0C0;
+    height: auto;
+    display: inline-block;
+}
+
+#about {
+    display: inline-block;
+    width: 495px;
+    height: 269px;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.box {
+    display: inline-block;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(left, #ffffff 0%, #dacbd9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffffff 0%,#dacbd9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ffffff 0%,#dacbd9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dacbd9',GradientType=1 ); /* IE6-9 */
+}
+
+.box a {
+    font-size: .8em;
+}
+
+.box p,a {
+    margin: 10px;
+    color: black;
+}
+
+.box .box-title {
+    background: #b3b3b6; /* Old browsers */
+    background: -moz-linear-gradient(top, #b3b3b6 0%, #8e8c98 51%, #b5b5b5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b3b3b6 0%,#8e8c98 51%,#b5b5b5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b3b3b6 0%,#8e8c98 51%,#b5b5b5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3b3b6', endColorstr='#b5b5b5',GradientType=0 ); /* IE6-9 */
+    color: white;
+    height: 35px;
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+    font-size: 1.3em;
+}
+
+#tophalf .box {
+    vertical-align: top;
+    margin-top: 15px;
+    width: 293px;
+    height: 359px;
+}
+
+#bottomhalf .box {
+    vertical-align: top;
+    width: 293px;
+    height: 200px;
+}
+
+.familycontacts {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#bottomhalf {
+    height: 200px;
+    width: auto;
+    vertical-align: top;
+}
+
+#bottombar p {
+    text-align: center;
+}
+
+.tinyicon {
+    height: 20px;
+    width: auto;
+    vertical-align: bottom;
+}
+
+#email {
+    width: inherit;
+}
+
+#github {
+    margin-left: 246px;
+}
+
+p.bottomlinks {
+    margin-top: 10px;
+    text-decoration: underline;
+    width: 103px;
+    display: inline-block;
+}
+
+.box p {
+    margin: 10px;
+    font-size: 0.8em;
+}
+
+.screenshot {
+    width: 293px;
+    height: auto;
+}
+
+.icon {
+    width: 44px;
+    display: inline-block;
+    height: auto;
+    margin: 5px;
+}
+
+.button {
+    margin: 0 auto;
+    padding-top: 4px;
+    text-align: center;
+    background: #407D61;
+    width: 93px;
+    height: 25px;
+    border-radius: .7em;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+}
+
+#famcontbutton {
+    width: 154px;
+}
+
+#fiveelevenbtn {
+    width: 101px;
+}
